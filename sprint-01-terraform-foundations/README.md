@@ -17,11 +17,11 @@ Build a practical foundation in **Infrastructure as Code using Terraform and Mic
 - `terraform destroy`
 
 ## Deployed Infrastructure
-. Resource Group
-. Virtual Network 
-. Web Subnet
-. App Subnet
-. Data Subnet
+- Resource Group
+- Virtual Network 
+- Web Subnet
+- App Subnet
+- Data Subnet
 
 ## Project Steps and Key takeaays
 .  Defined the infrastructure using Terraform.
