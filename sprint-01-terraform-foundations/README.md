@@ -33,8 +33,10 @@ Build a practical foundation in **Infrastructure as Code using Terraform and Mic
 ### 2. Deploy the Infrastructure
 - Defined the Azure infrastructure using Terraform configuration files.
 - Initialized the Terraform project and installed the required providers: **_terraform init_**
-- Created and reviewed the execution plan:** _terraform plan_**
+- Created and reviewed the execution plan: **_terraform plan_**
 - Applied the Terraform configuration to Azure: **_terraform apply_**
+### 3. Verify the Deployment
+Verified that the Resource Group, Virtual Network, and three subnets were successfully created in Azure.
 
 ## Project Diagram
 <img width="1052" height="393" alt="Terraform foundation Diagram drawio" src="https://github.com/user-attachments/assets/565696fd-5892-418f-b2d1-5179ff483ce2" />
