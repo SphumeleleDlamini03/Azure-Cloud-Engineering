@@ -40,3 +40,10 @@ Verified that the Resource Group, Virtual Network, and three subnets were succes
 
 ## Project Diagram
 <img width="1052" height="393" alt="Terraform foundation Diagram drawio" src="https://github.com/user-attachments/assets/565696fd-5892-418f-b2d1-5179ff483ce2" />
+
+## Resources Deployed On Azure
+
+## Tech Stack
+
+`Terraform` `EntaID` `RBAC` `Aure CLI`
+
