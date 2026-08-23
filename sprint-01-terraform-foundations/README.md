@@ -25,7 +25,7 @@ Build a practical foundation in **Infrastructure as Code using Terraform and Mic
 
 ## Project Steps and Key takeaays
 - Defined the infrastructure using Terraform.
-- Utilized azue CLI to log onto azure via ther terminal: bash command *az login --tenant tenantID*
+- Utilized azue CLI to log onto azure via ther terminal: bash command  *az login --tenant tenantID*
 - Once logged in I created a servise principal using bash. command: *az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/SUBSCRIPTION_ID"*
 
 ## Project Diagram
