@@ -26,15 +26,15 @@ Build a practical foundation in **Infrastructure as Code using Terraform and Mic
 ## Project Steps 
 ### 1. Configure Azure Access
 - Used the Azure CLI to log into Azure from the terminal:
- ***az login --tenant TENANT_ID***
+ ***`az login --tenant TENANT_ID`***
 - Created a service principal with Contributor access to the subscription:
-  ***az ad sp create-for-rbac \ --role="Contributor" \ --scopes="/subscriptions/SUBSCRIPTION_ID"***
+  ***`az ad sp create-for-rbac \ --role="Contributor" \ --scopes="/subscriptions/SUBSCRIPTION_ID"`***
 - Configured the required environment variables so Terraform could authenticate with Azure using the service principal.
 ### 2. Deploy the Infrastructure
 - Defined the Azure infrastructure using Terraform configuration files.
-- Initialized the Terraform project and installed the required providers: **_terraform init_**
-- Created and reviewed the execution plan: **_terraform plan_**
-- Applied the Terraform configuration to Azure: **_terraform apply_**
+- Initialized the Terraform project and installed the required providers: **_`terraform init`_**
+- Created and reviewed the execution plan: **_`terraform plan`_**
+- Applied the Terraform configuration to Azure: **_`terraform apply`_**
 ### 3. Verify the Deployment
 Verified that the Resource Group, Virtual Network, and three subnets were successfully created in Azure.
 
@@ -45,5 +45,5 @@ Verified that the Resource Group, Virtual Network, and three subnets were succes
 
 ## Tech Stack
 
-`Terraform` `EntraID` `RBAC` `Azure CLI`
+**`Terraform` `EntraID` `RBAC` `Azure CLI`**
 
