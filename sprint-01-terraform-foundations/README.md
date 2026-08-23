@@ -45,5 +45,5 @@ Verified that the Resource Group, Virtual Network, and three subnets were succes
 
 ## Tech Stack
 
-`Terraform` `EntaID` `RBAC` `Aure CLI`
+`Terraform` `EntraID` `RBAC` `Azure CLI`
 
