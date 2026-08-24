@@ -46,6 +46,8 @@ Removed the deployed resources using: **_`terraform destroy`_**
 <img width="1052" height="393" alt="Terraform foundation Diagram drawio" src="https://github.com/user-attachments/assets/565696fd-5892-418f-b2d1-5179ff483ce2" />
 
 ## Resources Deployed On Azure
+<img width="1916" height="944" alt="image" src="https://github.com/user-attachments/assets/d0e94194-3a94-4727-a028-0935b290a72a" />
+
 
 ## Tech Stack
 
