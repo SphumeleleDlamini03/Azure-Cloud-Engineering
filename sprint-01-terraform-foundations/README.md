@@ -46,5 +46,9 @@ Verified that the Resource Group, Virtual Network, and three subnets were succes
 
 ## Tech Stack
 
-**`Terraform` `EntraID` `RBAC` `Azure CLI`**
+- **Cloud:** `Microsoft Azure`
+- **IaC:** `Terraform`
+- **Identity**: `Microsoft Entra ID`
+- **Authorization:** `Azure RBAC`
+- **CLI:** `Azure CLI`
 
