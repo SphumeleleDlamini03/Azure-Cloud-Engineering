@@ -32,6 +32,9 @@ Build a practical foundation in **Infrastructure as Code using Terraform and Mic
 ### 3. Verify the Deployment
 Verified that the Resource Group, Virtual Network, and three subnets were successfully created in Azure.
 
+### 4. Destroy Infrastructure
+Removed the deployed resources using: **_`terraform destroy`_**
+
 ## Deployed Infrastructure
 - Resource Group
 - Virtual Network 
