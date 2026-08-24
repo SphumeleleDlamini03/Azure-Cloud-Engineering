@@ -30,6 +30,7 @@ Build a practical foundation in **Infrastructure as Code using Terraform and Mic
 - Created a service principal with Contributor access to the subscription:
   ***`az ad sp create-for-rbac \ --role="Contributor" \ --scopes="/subscriptions/SUBSCRIPTION_ID"`***
 - Configured the required environment variables so Terraform could authenticate with Azure using the service principal.
+- The service principal was created for learning purposes with Contributor access at subscription scope. Credentials were supplied through environment variables and were not committed to the repository.
 ### 2. Deploy the Infrastructure
 - Defined the Azure infrastructure using Terraform configuration files.
 - Initialized the Terraform project and installed the required providers: **_`terraform init`_**
