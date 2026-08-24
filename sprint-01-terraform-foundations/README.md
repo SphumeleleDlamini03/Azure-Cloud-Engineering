@@ -16,13 +16,6 @@ Build a practical foundation in **Infrastructure as Code using Terraform and Mic
 - `terraform apply`
 - `terraform destroy`
 
-## Deployed Infrastructure
-- Resource Group
-- Virtual Network 
-- Web Subnet
-- App Subnet
-- Data Subnet
-
 ## Project Steps 
 ### 1. Configure Azure Access
 - Used the Azure CLI to log into Azure from the terminal:
@@ -38,6 +31,13 @@ Build a practical foundation in **Infrastructure as Code using Terraform and Mic
 - Applied the Terraform configuration to Azure: **_`terraform apply`_**
 ### 3. Verify the Deployment
 Verified that the Resource Group, Virtual Network, and three subnets were successfully created in Azure.
+
+## Deployed Infrastructure
+- Resource Group
+- Virtual Network 
+- Web Subnet
+- App Subnet
+- Data Subnet
 
 ## Project Diagram
 <img width="1052" height="393" alt="Terraform foundation Diagram drawio" src="https://github.com/user-attachments/assets/565696fd-5892-418f-b2d1-5179ff483ce2" />
